@@ -67,6 +67,7 @@ void loop()
         fallCount = 0;
       }
     }
-    
+
+    fallCount = 0;
     delay(50);
 }
