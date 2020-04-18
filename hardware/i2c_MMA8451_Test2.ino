@@ -9,6 +9,7 @@ int fallCount = 0;
 float maxFallValue = 0;
 const float upperThreshold = 6.00;
 const float lowerThreshold = 3.00;
+const int delayTime = 50;
 
 
 void setup()
@@ -52,7 +53,7 @@ void loop()
           maxFallValue = currentAcc;
         }
         currentTime = millis();
-        delay(50);
+        delay(delayTime);
       }
 
       // Take the maximun value of the testing above, if bigger then 3 suspected as an after shock
