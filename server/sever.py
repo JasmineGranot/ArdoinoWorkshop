@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import handleRequest
+from server import handleRequest
 import socket
 
 HOST = '192.168.1.4'  # Standard loopback interface address (localhost)
@@ -17,7 +17,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 if not data:
                     break
                 data = handleRequest.handle_request(data)
-                conn.sendall(data)
+                if data:
+                    conn.sendall(data)
+                break
 
 
 
