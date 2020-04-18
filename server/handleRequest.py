@@ -20,7 +20,7 @@ FUNCTION_BY_PROTOCOL = {Const.GET_HEARTBEAT: App.get_heartbeat,
 def parse_data(msg):
     data = msg.split()  # msg = "setHeartbeat 100 180" -> data = ['setHeartbeat', '100', '180']
     protocol_fields = PROTOCOL_DICT[
-        data[0]]  # PROTOCOL_DICT['setHeartbeat'] = ['protocol_type', 'user_id', 'heartbeat']
+        data[0]]  # PROTOCOL_DICT['setHeartbeat'] = ['protocol_type', 'user_id', 'heartbeat_val']
     return get_dict_by_protocol(data, protocol_fields)
 
 

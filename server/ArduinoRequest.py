@@ -5,6 +5,7 @@ from datetime import datetime
 def set_fall(data):
     user_id = data.get(Const.USER_ID)
     time = datetime.now()
+    data[Const.TIME] = time
     loc = data.get(Const.FALL_LOC)
     write_fall_to_db(user_id, time, loc)
     # alert to app
