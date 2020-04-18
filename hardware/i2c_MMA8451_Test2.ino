@@ -7,6 +7,8 @@ unsigned long currentTime = 0, timeAtFall = 0;
 float currentAcc = 0;
 int fallCount = 0;
 float maxFallValue = 0;
+const float upperThreshold = 6.00;
+const float lowerThreshold = 3.00;
 
 
 void setup()
@@ -21,6 +23,8 @@ void setup()
     else
     {
         Serial.println("Sensor missing");
+        // TODO: think if the server would care if the sensor is missing 
+        // (I think yes, would alert the server that the bracelet has a problem and needs fixing)
         while(1) {};
     }
 }
@@ -33,7 +37,7 @@ void loop()
     currentAcc = sqrt(pow(xyz_g[0], 2) + pow(xyz_g[1], 2) + pow(xyz_g[2], 2));
 
     // Suspected A fall happend (fall threshold: value >= 6)
-    if (currentAcc >= 6.00 && fallCount == 0) {
+    if (currentAcc >= upperThreshold && fallCount == 0) {
       Serial.println(currentAcc);
       fallCount++;
       timeAtFall = millis();
@@ -52,22 +56,21 @@ void loop()
       }
 
       // Take the maximun value of the testing above, if bigger then 3 suspected as an after shock
-      if (maxFallValue >=3) {
+      if (maxFallValue >= lowerThreshold) {
         delay(50);
         mma8451.getMeasurement(xyz_g);
         currentAcc = sqrt(pow(xyz_g[0], 2) + pow(xyz_g[1], 2) + pow(xyz_g[2], 2));
         Serial.println(currentAcc);
         // Check if the currentAcc is below the aftershock threshold, if so a fall was detected.
-        if (currentAcc < 3) {
+        if (currentAcc < lowerThreshold) {
           Serial.println("Fall Detected!");
         }
       }
       // Detected continuous movment and not a fall
-      else if (maxFallValue >= 6) {
+      else if (maxFallValue >= upperThreshold) {
         fallCount = 0;
       }
     }
 
     fallCount = 0;
-    delay(50);
 }
