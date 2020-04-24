@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/login_page_background_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/getFallHistoryButton"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/circle_button"
+        android:text="@string/fall_history"
+        android:textColor="#36486b"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/emergencyCallButton"
+        app:layout_constraintEnd_toStartOf="@+id/getPulseHistoryButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <Button
+        android:id="@+id/getPulseHistoryButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/small_circle_button"
+        android:text="@string/pulse_history"
+        android:textColor="#36486b"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/getLocationButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.889" />
+
+    <Button
+        android:id="@+id/emergencyCallButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/small_circle_button"
+        android:text="@string/emergency_call"
+        android:textColor="#36486b"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/getLocationButton"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602" />
+
+    <Button
+        android:id="@+id/getLocationButton"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/circle_button"
+        android:text="@string/location"
+        android:textColor="#36486b"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+</androidx.constraintlayout.widget.ConstraintLayout>
