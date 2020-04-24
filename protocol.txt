@@ -2,6 +2,7 @@ getHeartbeat <arduino_id> - query db for current heartbeat for user (by app)
 setHeartbeat <arduino_id, heartbeat> - save to db current heartbeat for user (by arduino)
 setHeartbeatAlert <arduino_id, heartbeat> - save to db current heartbeat for user and alert app (by arduino)
 getHeartbeatHistory <arduino_id> - query db for all heartbeat for user (by app)
+setAnomalyHeartbeat <arduino_id> - save to db current heartbeat for user and alert app (by arduino)
 
 getFall <arduino_id> - query db for last fall for user (by app)
 setFall <arduino_id, gps, time> - save to db current fall data for user and alert app (by arduino)

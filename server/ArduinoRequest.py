@@ -16,6 +16,13 @@ def set_heartbeat(data):
     time = datetime.now()
     val = data.get(Const.HEARTBEAT_VAL)
     write_heartbeat_to_db(user_id, time, val)
+
+
+def set_anomaly_heartbeat(data):
+    user_id = data.get(Const.USER_ID)
+    time = datetime.now()
+    val = data.get(Const.HEARTBEAT_VAL)
+    write_heartbeat_to_db(user_id, time, val)
     # alert to app
 
 

@@ -6,6 +6,7 @@ TIME = 'time'
 # consts for requests from app and arduino:
 GET_HEARTBEAT = 'getHeartbeat'
 SET_HEARTBEAT = 'setHeartbeat'
+SET_ANOMALY_HEARTBEAT = 'setAnomalyHeartbeat'
 HEARTBEAT_VAL = 'heartbeat'
 GET_HEARTBEAT_HISTORY = 'getHeartbeatHistory'
 GET_LAST_FALL = 'getFall'
