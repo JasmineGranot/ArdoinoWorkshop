@@ -1,4 +1,4 @@
-from server import Const
+from server_side import Const
 from datetime import datetime
 
 
@@ -32,6 +32,8 @@ def write_fall_to_db(user_id, fall_time, fall_location):
     VALUES 
        ({user_id},{fall_time}, {fall_location});
     """
+    print(f"query was created: {query}")
+
     return query
 
 
@@ -41,4 +43,6 @@ def write_heartbeat_to_db(user_id, time, heartbeat_val):
     VALUES 
        ({user_id}, {time}, {heartbeat_val});
     """
+    print(f"query was created: {query}")
+
     return query

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-from server import handleRequest
+import server_side.handle_request as r
 import socket
+import server_side
 
-HOST = '192.168.1.4'  # Standard loopback interface address (localhost)
+HOST = '127.0.0.1'  # Standard loopback interface address (localhost) 192.168.1.4
 PORT = 65432        # Port to listen on (non-privileged ports are > 1023)
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -16,10 +17,11 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 data = conn.recv(1024)
                 if not data:
                     break
-                data = handleRequest.handle_request(data)
+                data = r.handle_request(data)
                 if data:
                     conn.sendall(data)
-                break
+                else:
+                    conn.sendall(b"oh no")
 
 
 

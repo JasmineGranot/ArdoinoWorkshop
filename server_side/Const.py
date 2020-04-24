@@ -2,6 +2,7 @@
 REQUEST_TYPE = 'protocol_type'
 USER_ID = 'user_id'
 TIME = 'time'
+NOT_FOUND = 'Not Found'
 
 # consts for requests from app and arduino:
 GET_HEARTBEAT = 'getHeartbeat'
