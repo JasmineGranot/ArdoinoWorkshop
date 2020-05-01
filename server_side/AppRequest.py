@@ -1,6 +1,11 @@
 from server_side import Const
 from server_side.db_handler import DBHandler
 
+
+def register_user(data):
+    pass
+
+
 def get_heartbeat(data):
     print(f"got heartbeat data")
 
