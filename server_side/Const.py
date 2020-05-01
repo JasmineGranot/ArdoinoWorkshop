@@ -16,5 +16,10 @@ FALL_LOC = 'fall_location'
 GET_FALL_HISTORY = 'getFallHistory'
 
 # consts for tables:
-FALL_TABLE = 'fall_table'
-HEARTBEAT_TABLE = 'heartbeat_table'
+DB_IP = '34.69.72.132'
+
+FALL_TABLE = 'falls'
+HEARTBEAT_TABLE = 'pulse'
+USER_TABLE = 'users'
+
+ARDUINO_ID = 'ard_id'
