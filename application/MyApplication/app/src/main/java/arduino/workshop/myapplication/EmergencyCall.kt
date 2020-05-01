@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity
 class EmergencyCall: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.main_screen)
 
         val number = "+972526586120"
         val finalNumber = number.trim()

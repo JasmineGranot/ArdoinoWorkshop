@@ -8,14 +8,14 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/getFallHistoryButton"
+        android:id="@+id/emergencyCallButton"
         android:layout_width="160dp"
         android:layout_height="160dp"
-        android:background="@drawable/circle_button"
-        android:text="@string/fall_history"
-        android:textColor="#36486b"
+        android:background="@drawable/emergency_call_circle_button"
+        android:text="@string/emergency_call"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/emergencyCallButton"
+        app:layout_constraintBottom_toTopOf="@+id/getFallHistoryButton"
         app:layout_constraintEnd_toStartOf="@+id/getPulseHistoryButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -37,13 +37,13 @@
         app:layout_constraintVertical_bias="0.889" />
 
     <Button
-        android:id="@+id/emergencyCallButton"
+        android:id="@+id/getFallHistoryButton"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@drawable/small_circle_button"
-        android:text="@string/emergency_call"
+        android:text="@string/fall_history"
         android:textColor="#36486b"
-        android:textSize="10sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/getLocationButton"
         app:layout_constraintHorizontal_bias="0.537"
