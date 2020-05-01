@@ -12,5 +12,9 @@ class DBHandler:
     def __del__(self):
         self.cnx.close()
 
-    def execute(self, query):
+    def getData(self, query):
         return pd.read_sql_query(query, self.cnx)
+
+    def execute(self, query):
+        cur = self.cnx.cursor()
+        cur.execute(query)
