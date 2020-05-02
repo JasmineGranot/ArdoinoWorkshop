@@ -834,6 +834,7 @@ id chronometer
 id collapseActionView
 id content
 id contentPanel
+id currentPulse
 id custom
 id customPanel
 id dark
@@ -844,6 +845,7 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id editText
 id edit_query
 id emergencyCallButton
 id end
@@ -851,8 +853,8 @@ id expand_activities_button
 id expanded_menu
 id fallHistoryTableLayout
 id forever
+id getCurrentPulseButton
 id getFallHistoryButton
-id getLocationButton
 id getPulseHistoryButton
 id gone
 id group_divider
@@ -928,6 +930,7 @@ id select_dialog_listview
 id shortcut
 id showCustom
 id showHome
+id showLocationColumn
 id showTitle
 id signInButton
 id signInEmail
@@ -968,6 +971,7 @@ id unchecked
 id uniform
 id up
 id useLogo
+id userNameTextView
 id welcomeTextView
 id wide
 id withText
@@ -1014,6 +1018,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_current_pulse
 layout activity_fall_history
 layout activity_location
 layout activity_pulse_history
@@ -1061,6 +1066,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string bpm
 string bracelet_id
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
@@ -1080,6 +1086,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string current_pulse
 string date_label
 string email
 string email_address
@@ -1088,6 +1095,7 @@ string fall_history
 string id
 string information
 string location
+string name_of_user
 string not_signed_in
 string password
 string password_string
@@ -1096,8 +1104,10 @@ string phone_number
 string pulse_history
 string register
 string search_menu_title
+string show_location
 string sign_in
 string status_bar_notification_info_overflow
+string user_name
 string welcome_text
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

@@ -22,4 +22,5 @@
     <string name="user_name">Your Name</string>
     <string name="current_pulse">Current\nPulse</string>
     <string name="bpm">BPM</string>
+    <string name="show_location">Show On Map</string>
 </resources>

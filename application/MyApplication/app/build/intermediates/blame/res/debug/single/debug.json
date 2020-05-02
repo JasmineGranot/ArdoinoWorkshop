@@ -100,6 +100,10 @@
         "source": "C:\\Users\\Vered Harel\\Documents\\GitHub\\ArdoinoWorkshop\\application\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Vered Harel\\Documents\\GitHub\\ArdoinoWorkshop\\application\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_current_pulse.xml.flat",
+        "source": "C:\\Users\\Vered Harel\\Documents\\GitHub\\ArdoinoWorkshop\\application\\MyApplication\\app\\src\\main\\res\\layout\\activity_current_pulse.xml"
+    },
+    {
         "merged": "C:\\Users\\Vered Harel\\Documents\\GitHub\\ArdoinoWorkshop\\application\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_page_background.jpeg.flat",
         "source": "C:\\Users\\Vered Harel\\Documents\\GitHub\\ArdoinoWorkshop\\application\\MyApplication\\app\\src\\main\\res\\drawable\\login_page_background.jpeg"
     },

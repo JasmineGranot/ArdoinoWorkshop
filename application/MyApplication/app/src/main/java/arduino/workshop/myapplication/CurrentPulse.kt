@@ -3,9 +3,10 @@ package arduino.workshop.myapplication
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
+
 class CurrentPulse : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pulse_history)
+        setContentView(R.layout.activity_current_pulse)
     }
 }

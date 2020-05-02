@@ -26,7 +26,7 @@
 17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 18
 19    <application
-19-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:5:5-33:19
+19-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:5:5-34:19
 20        android:allowBackup="true"
 20-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:6:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -75,42 +75,45 @@
 41        <activity android:name="arduino.workshop.myapplication.EmergencyCall" />
 41-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:24:9-51
 41-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:24:19-48
-42
-43        <meta-data
-43-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:26:9-28:57
-44            android:name="preloaded_fonts"
-44-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:27:13-43
-45            android:resource="@array/preloaded_fonts" />
-45-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:28:13-54
-46        <meta-data
-46-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:30:9-32:71
-47            android:name="com.google.android.geo.API_KEY"
-47-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:31:13-58
-48            android:value="AIzaSyAgDkTp-T9Y_aOzOyxQC0OdEfbKwTo84So" />
-48-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:32:13-68
-49        <!-- Needs to be explicitly declared on P+ -->
-50        <uses-library
-50-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-51            android:name="org.apache.http.legacy"
-51-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-52            android:required="false" />
-52-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-53
-54        <activity
-54-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-55            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-55-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-56            android:exported="false"
-56-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-57            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-58
-59        <meta-data
-59-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\862cde625aad1fbef0a39de3e07c14e3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-60            android:name="com.google.android.gms.version"
-60-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\862cde625aad1fbef0a39de3e07c14e3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-61            android:value="@integer/google_play_services_version" />
-61-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\862cde625aad1fbef0a39de3e07c14e3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-62    </application>
-63
-64</manifest>
+42        <activity android:name="arduino.workshop.myapplication.CurrentPulse" />
+42-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:25:9-50
+42-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:25:19-47
+43
+44        <meta-data
+44-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:27:9-29:57
+45            android:name="preloaded_fonts"
+45-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:28:13-43
+46            android:resource="@array/preloaded_fonts" />
+46-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:29:13-54
+47        <meta-data
+47-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:31:9-33:71
+48            android:name="com.google.android.geo.API_KEY"
+48-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:32:13-58
+49            android:value="AIzaSyAgDkTp-T9Y_aOzOyxQC0OdEfbKwTo84So" />
+49-->C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:33:13-68
+50        <!-- Needs to be explicitly declared on P+ -->
+51        <uses-library
+51-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+52            android:name="org.apache.http.legacy"
+52-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+53            android:required="false" />
+53-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+54
+55        <activity
+55-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+56            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+56-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+57            android:exported="false"
+57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+59
+60        <meta-data
+60-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\862cde625aad1fbef0a39de3e07c14e3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+61            android:name="com.google.android.gms.version"
+61-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\862cde625aad1fbef0a39de3e07c14e3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+62            android:value="@integer/google_play_services_version" />
+62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\862cde625aad1fbef0a39de3e07c14e3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+63    </application>
+64
+65</manifest>

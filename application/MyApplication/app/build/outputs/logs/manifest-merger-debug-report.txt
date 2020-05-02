@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\bd9eaa2992ad422b7eac643b0aac27f7\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\9bb335e4785cfec91958375c7c0d4aa2\jetified-core-ktx-1.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\85fa2711bb2ad134a23924a267c31046\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -30,25 +30,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vered Harel\.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\c67b9bb136a4f6d2adb0b6b00aa57ae6\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\a25feba509b9cf92e2d524d5a5ea1774\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\49555381fa7291ed6a909b646083fc2a\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-36:12
 	package
 		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-35:12
+		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-35:12
+		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:5:5-33:19
+ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:5:5-34:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\85fa2711bb2ad134a23924a267c31046\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\85fa2711bb2ad134a23924a267c31046\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Vered Harel\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
@@ -115,18 +115,22 @@ activity#arduino.workshop.myapplication.EmergencyCall
 ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:24:9-51
 	android:name
 		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:24:19-48
+activity#arduino.workshop.myapplication.CurrentPulse
+ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:25:9-50
+	android:name
+		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:25:19-47
 meta-data#preloaded_fonts
-ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:26:9-28:57
+ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:27:9-29:57
 	android:resource
-		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:28:13-54
+		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:29:13-54
 	android:name
-		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:27:13-43
+		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:28:13-43
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:30:9-32:71
+ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:31:9-33:71
 	android:value
-		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:32:13-68
+		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:33:13-68
 	android:name
-		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:31:13-58
+		ADDED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:32:13-58
 uses-sdk
 INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Vered Harel\Documents\GitHub\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml

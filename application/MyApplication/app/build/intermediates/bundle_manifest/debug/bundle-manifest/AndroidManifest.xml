@@ -39,6 +39,7 @@
         <activity android:name="arduino.workshop.myapplication.PulseHistory" />
         <activity android:name="arduino.workshop.myapplication.Location" />
         <activity android:name="arduino.workshop.myapplication.EmergencyCall" />
+        <activity android:name="arduino.workshop.myapplication.CurrentPulse" />
 
         <meta-data
             android:name="preloaded_fonts"
