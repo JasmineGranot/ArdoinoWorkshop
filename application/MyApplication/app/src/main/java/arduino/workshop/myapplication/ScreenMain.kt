@@ -11,7 +11,7 @@ class ScreenMain: AppCompatActivity() {
         setContentView(R.layout.main_screen)
 
         getCurrentPulseButton.setOnClickListener {
-            startActivity(Intent(this, Location::class.java))
+            startActivity(Intent(this, CurrentPulse::class.java))
         }
 
         emergencyCallButton.setOnClickListener {
