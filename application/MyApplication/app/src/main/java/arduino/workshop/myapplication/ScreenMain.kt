@@ -10,8 +10,8 @@ class ScreenMain: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_screen)
 
-        getLocationButton.setOnClickListener {
-            startActivity(Intent(this, Location::class.java))
+        getCurrentPulseButton.setOnClickListener {
+            startActivity(Intent(this, CurrentPulse::class.java))
         }
 
         emergencyCallButton.setOnClickListener {

@@ -10,7 +10,7 @@
     <string name="email">Email:</string>
     <string name="phone_number">Phone:</string>
     <string name="phone">Phone Number</string>
-    <string name="bracelet_id">Bracelet ID:</string>
+    <string name="bracelet_id">Bracele\nID:</string>
     <string name="id">Bracelet ID</string>
     <string name="password_string">Password:</string>
     <string name="fall_history">Fall\nHistory</string>
@@ -18,4 +18,9 @@
     <string name="location">Location</string>
     <string name="emergency_call">Emergency\nCall</string>
     <string name="date_label">Date</string>
+    <string name="name_of_user">Your\nName:</string>
+    <string name="user_name">Your Name</string>
+    <string name="current_pulse">Current\nPulse</string>
+    <string name="bpm">BPM</string>
+    <string name="show_location">Show On Map</string>
 </resources>

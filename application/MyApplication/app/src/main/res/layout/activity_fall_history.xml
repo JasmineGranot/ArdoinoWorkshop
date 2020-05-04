@@ -44,5 +44,16 @@
             android:gravity="center"
             android:text="@string/location"
             android:textColor="#36486b" />
+
+        <TextView
+            android:id="@+id/showLocationColumn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/archivo_black"
+            android:gravity="center"
+            android:text="@string/show_location"
+            android:textColor="#36486b" />
+
     </TableRow>
 </TableLayout>

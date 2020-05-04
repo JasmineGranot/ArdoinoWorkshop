@@ -22,6 +22,7 @@
         <activity android:name=".PulseHistory" />
         <activity android:name=".Location" />
         <activity android:name=".EmergencyCall" />
+        <activity android:name=".CurrentPulse" />
 
         <meta-data
             android:name="preloaded_fonts"

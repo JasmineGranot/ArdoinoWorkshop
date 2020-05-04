@@ -1,0 +1,4 @@
+#Sat May 02 20:24:55 IDT 2020
+base.0=C\:\\Users\\Vered Harel\\Documents\\GitHub\\ArdoinoWorkshop\\application\\MyApplication\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
