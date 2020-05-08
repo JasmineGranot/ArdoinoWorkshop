@@ -845,7 +845,6 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
-id editText
 id edit_query
 id emergencyCallButton
 id end
@@ -906,6 +905,7 @@ id registerPasswordTextView
 id registerPhoneTextView
 id registeredBraceletId
 id registeredEmail
+id registeredName
 id registeredPassword
 id registeredPhoneNumber
 id right
