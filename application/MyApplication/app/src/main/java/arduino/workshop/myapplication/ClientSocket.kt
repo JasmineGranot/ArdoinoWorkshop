@@ -1,9 +1,11 @@
 package arduino.workshop.myapplication
 
 import android.os.AsyncTask
+import kotlinx.coroutines.Dispatchers
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.io.PrintWriter
+import java.net.InetSocketAddress
 import java.net.Socket
 
 object ClientSocket : AsyncTask<String, Void, String>() {

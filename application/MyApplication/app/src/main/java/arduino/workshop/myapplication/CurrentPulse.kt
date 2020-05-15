@@ -13,7 +13,7 @@ class CurrentPulse : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_current_pulse)
         CoroutineScope(Dispatchers.IO).launch {
-            val currentPulseFromServer = ClientSocket.doInBackground("getHeartbeat")
+            val currentPulseFromServer = ClientSocket.doInBackground("getHeartbeat 100")
             currentPulse.text = currentPulseFromServer
         }
     }

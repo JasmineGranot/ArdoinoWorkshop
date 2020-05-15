@@ -19,7 +19,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                     break
                 data = r.handle_request(data)
                 if data:
-                    conn.sendall(data)
+                    conn.sendall(str.encode(data))
                 else:
                     conn.sendall(b"oh no")
 

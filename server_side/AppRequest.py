@@ -2,7 +2,7 @@ from server_side import Const
 
 
 def get_heartbeat(data):
-    print(f"got heartbeat data")
+    return str(120)
 
 
 def get_heartbeat_history(data):
