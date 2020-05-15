@@ -1,12 +1,16 @@
 from server_side import Const, ArduinoRequest as Ard, AppRequest as App
 
-PROTOCOL_DICT = {Const.GET_HEARTBEAT: [Const.REQUEST_TYPE, Const.USER_ID],
-                 Const.SET_HEARTBEAT: [Const.REQUEST_TYPE, Const.USER_ID, Const.HEARTBEAT_VAL],
-                 Const.SET_ANOMALY_HEARTBEAT: [Const.REQUEST_TYPE, Const.USER_ID, Const.HEARTBEAT_VAL],
-                 Const.GET_HEARTBEAT_HISTORY: [Const.REQUEST_TYPE, Const.USER_ID],
-                 Const.GET_LAST_FALL: [Const.REQUEST_TYPE, Const.USER_ID],
-                 Const.SET_LAST_FALL: [Const.REQUEST_TYPE, Const.USER_ID, Const.FALL_LOC, Const.TIME],
-                 Const.GET_FALL_HISTORY: [Const.REQUEST_TYPE, Const.USER_ID]
+PROTOCOL_DICT = {Const.GET_HEARTBEAT: [Const.REQUEST_TYPE, Const.ARDUINO_ID_FIELD],
+                 Const.SET_HEARTBEAT: [Const.REQUEST_TYPE, Const.ARDUINO_ID_FIELD, Const.HEARTBEAT_VAL],
+                 Const.SET_ANOMALY_HEARTBEAT: [Const.REQUEST_TYPE, Const.ARDUINO_ID_FIELD, Const.HEARTBEAT_VAL],
+                 Const.GET_HEARTBEAT_HISTORY: [Const.REQUEST_TYPE, Const.ARDUINO_ID_FIELD],
+                 Const.GET_LAST_FALL: [Const.REQUEST_TYPE, Const.ARDUINO_ID_FIELD],
+                 Const.SET_LAST_FALL: [Const.REQUEST_TYPE, Const.ARDUINO_ID_FIELD, Const.LATITUDE_FIELD,
+                                       Const.LONGITUDE_FIELD, Const.DATE_FIELD],
+                 Const.GET_FALL_HISTORY: [Const.REQUEST_TYPE, Const.ARDUINO_ID_FIELD],
+                 Const.ADD_ARDUINO: [Const.REQUEST_TYPE, Const.ARDUINO_ID_FIELD, Const.AGE_FIELD],
+                 Const.ADD_USER: [Const.REQUEST_TYPE, Const.ARDUINO_ID_FIELD, Const.NAME_FIELD, Const.EMAIL_FIELD,
+                                  Const.PASSWORD_FIELD, Const.PHONE_FIELD]
                  }
 
 FUNCTION_BY_PROTOCOL = {Const.GET_HEARTBEAT: App.get_heartbeat,
@@ -15,7 +19,9 @@ FUNCTION_BY_PROTOCOL = {Const.GET_HEARTBEAT: App.get_heartbeat,
                         Const.GET_HEARTBEAT_HISTORY: App.get_heartbeat_history,
                         Const.GET_LAST_FALL: App.get_fall,
                         Const.SET_LAST_FALL: Ard.set_fall,
-                        Const.GET_FALL_HISTORY: App.get_fall_history
+                        Const.GET_FALL_HISTORY: App.get_fall_history,
+                        Const.ADD_USER: App.register_user,
+                        Const.ADD_ARDUINO: App.register_Arduino
                         }
 
 
