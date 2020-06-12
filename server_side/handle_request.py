@@ -9,8 +9,10 @@ PROTOCOL_DICT = {Const.GET_HEARTBEAT: [Const.REQUEST_TYPE, Const.ARDUINO_ID_FIEL
                                        Const.LONGITUDE_FIELD, Const.DATE_FIELD],
                  Const.GET_FALL_HISTORY: [Const.REQUEST_TYPE, Const.ARDUINO_ID_FIELD],
                  Const.ADD_ARDUINO: [Const.REQUEST_TYPE, Const.ARDUINO_ID_FIELD, Const.AGE_FIELD],
-                 Const.ADD_USER: [Const.REQUEST_TYPE, Const.ARDUINO_ID_FIELD, Const.NAME_FIELD, Const.EMAIL_FIELD,
-                                  Const.PASSWORD_FIELD, Const.PHONE_FIELD]
+                 Const.ADD_USER: [Const.REQUEST_TYPE, Const.NAME_FIELD, Const.EMAIL_FIELD,
+                                  Const.PHONE_FIELD, Const.ARDUINO_ID_FIELD,
+                                  Const.PASSWORD_FIELD],
+                 Const.SIGN_IN: [Const.REQUEST_TYPE, Const.EMAIL_FIELD, Const.PASSWORD_FIELD]
                  }
 
 FUNCTION_BY_PROTOCOL = {Const.GET_HEARTBEAT: App.get_heartbeat,
@@ -21,12 +23,13 @@ FUNCTION_BY_PROTOCOL = {Const.GET_HEARTBEAT: App.get_heartbeat,
                         Const.SET_LAST_FALL: Ard.set_fall,
                         Const.GET_FALL_HISTORY: App.get_fall_history,
                         Const.ADD_USER: App.register_user,
-                        Const.ADD_ARDUINO: App.register_Arduino
+                        Const.ADD_ARDUINO: App.register_arduino,
+                        Const.SIGN_IN: App.signin_user
                         }
 
 
 def parse_data(msg):
-    data = msg.decode('utf-8').split()  # msg = "setHeartbeat 100 180" -> data = ['setHeartbeat', '100', '180']
+    data = msg.decode('utf-8').split(Const.DELIMETER)  # msg = "setHeartbeat 100 180" -> data = ['setHeartbeat', '100', '180']
     protocol_fields = PROTOCOL_DICT.get(data[0], Const.NOT_FOUND)  # PROTOCOL_DICT['setHeartbeat'] = ['protocol_type', 'user_id', 'heartbeat_val']
     if protocol_fields != Const.NOT_FOUND and len(data) == len(protocol_fields):
         return get_dict_by_protocol(data, protocol_fields)

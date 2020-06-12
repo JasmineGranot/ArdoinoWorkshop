@@ -18,3 +18,4 @@ class DBHandler:
     def execute(self, query):
         cur = self.cnx.cursor()
         cur.execute(query)
+        self.cnx.commit()

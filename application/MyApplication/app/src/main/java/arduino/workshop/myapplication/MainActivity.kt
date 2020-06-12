@@ -5,34 +5,51 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_sign_in.*
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
 
+    @ExperimentalStdlibApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
+
+        var usernameFromApp = ""
+        var passwordFromDataBase = ""
+        var userNameFromDataBase = ""
+        var valuesFromDataBase = ""
+        var nameAndArdId = ""
 
         registerButton.setOnClickListener {
             startActivity(Intent(this, Register::class.java))
         }
 
         signInButton.setOnClickListener {
-            val usernameFromApp = signInEmail.text.toString()
+            usernameFromApp = signInEmail.text.toString()
             val passwordFromApp = signInPassword.text.toString()
-            val userNameFromDataBase = "veredh12@hotmail.com"
-            val passwordFromDataBase = "123456"
+            CoroutineScope(Dispatchers.IO).launch {
+                nameAndArdId = ClientSocket.doInBackground(
+                    "signin;".plus(usernameFromApp).plus(";").plus(passwordFromApp)).toString()
+            }
 
-            if (usernameFromApp == userNameFromDataBase && passwordFromApp == passwordFromDataBase) {
+            if (nameAndArdId != ("-1")) {
+                valuesFromDataBase = nameAndArdId.split(";").toString()
+                var newUser =
+                    User(
+                        valuesFromDataBase?.get(0).toString(),
+                        usernameFromApp,
+                        valuesFromDataBase?.get(1).toString()
+                    )
                 startActivity(Intent(this, ScreenMain::class.java))
-            } else if (usernameFromApp != userNameFromDataBase && passwordFromApp == passwordFromDataBase) {
-                Toast.makeText(this@MainActivity, "Email Is Incorrect", Toast.LENGTH_SHORT).show()
-            } else if (passwordFromApp != passwordFromDataBase && usernameFromApp == userNameFromDataBase) {
-                Toast.makeText(this@MainActivity, "Password Is Incorrect", Toast.LENGTH_SHORT)
-                    .show()
-            } else {
-                Toast.makeText(this@MainActivity, "User Is Not Registered", Toast.LENGTH_SHORT)
+            }
+            else {
+                Toast.makeText(this@MainActivity, "User Could Not Be Found!", Toast.LENGTH_SHORT)
                     .show()
             }
         }
+
+
     }
 }

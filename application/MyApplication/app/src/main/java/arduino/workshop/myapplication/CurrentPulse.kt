@@ -9,6 +9,7 @@ import kotlinx.coroutines.launch
 
 
 class CurrentPulse : AppCompatActivity() {
+    @ExperimentalStdlibApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_current_pulse)

@@ -10,6 +10,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class Register: AppCompatActivity() {
+    @ExperimentalStdlibApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
@@ -38,19 +39,15 @@ class Register: AppCompatActivity() {
             }
             else {
 
-                val newUserName = userName.replace(' ', '-')
-                var user = User(
-                    userName,
-                    userEmail,
-                    userPhone,
-                    braceletID,
-                    password
-                ) // TODO: decide whether upload information to database or save locally
+                val user = User(userName, userEmail, braceletID)
                 val userInfo =
-                    newUserName.plus(" ").plus(userEmail).plus(" ").plus(userPhone).plus(" ")
-                        .plus(braceletID).plus(" ").plus(password).plus("")
+                    userName.plus(";").plus(userEmail).plus(";").plus(userPhone).plus(";")
+                        .plus(braceletID).plus(";").plus(password)
                 CoroutineScope(Dispatchers.IO).launch {
-                    ClientSocket.doInBackground(userInfo)
+                    val serverAnswer = ClientSocket.doInBackground("addNewUser ".plus(userInfo))
+                    if(serverAnswer != "oh no"){
+                        setContentView(R.layout.activity_sign_in)
+                    }
                 }
             }
         }

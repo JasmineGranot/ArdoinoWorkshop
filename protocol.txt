@@ -7,5 +7,6 @@ setAnomalyHeartbeat <arduino_id> - save to db current heartbeat for user and ale
 getFall <arduino_id> - query db for last fall for user (by app)
 setFall <arduino_id, lat, long, time> - save to db current fall data for user and alert app (by arduino)
 getFallHistory <arduino_id> - query db for all falls for user (by app)
-addUser <arduino_id, name, mail, password, phone>
+addNewUser <name, mail, phone, arduino_id, password>
+signin <mail, password> -> name, Ard_id
 addArduino <arduino_id, name, age>

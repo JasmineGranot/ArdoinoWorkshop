@@ -7,11 +7,12 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class PulseHistory: AppCompatActivity() {
+    @ExperimentalStdlibApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pulse_history)
         CoroutineScope(Dispatchers.IO).launch {
-            ClientSocket.doInBackground("getHeartbeatHistory")
+            val currentPulseFromServer = ClientSocket.doInBackground("getHeartbeatHistory 100")
         }
     }
 }

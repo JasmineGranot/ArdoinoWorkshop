@@ -8,11 +8,12 @@ import kotlinx.coroutines.launch
 
 
 class FallHistory: AppCompatActivity() {
+    @ExperimentalStdlibApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fall_history)
         CoroutineScope(Dispatchers.IO).launch {
-            ClientSocket.doInBackground("getFallHistory")
+            val currentPulseFromServer = ClientSocket.doInBackground("getFallHistory 100")
         }
     }
 }

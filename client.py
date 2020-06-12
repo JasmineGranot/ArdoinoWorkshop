@@ -12,4 +12,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.sendall(str.encode(d))
         data = s.recv(1024)
 
-        print('Received', repr(data))
+        print('Received', str(data))
