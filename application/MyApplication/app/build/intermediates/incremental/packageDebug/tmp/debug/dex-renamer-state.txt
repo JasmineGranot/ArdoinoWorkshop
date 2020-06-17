@@ -1,4 +1,4 @@
-#Fri Jun 12 15:50:36 IDT 2020
-base.0=C\:\\Users\\vered\\Desktop\\Git\\ArdoinoWorkshop\\application\\MyApplication\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Wed Jun 17 20:28:46 IDT 2020
+base.0=C\:\\Users\\jasmi\\Desktop\\Git\\ArdoinoWorkshop\\application\\MyApplication\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

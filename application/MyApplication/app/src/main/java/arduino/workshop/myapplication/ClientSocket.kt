@@ -1,15 +1,15 @@
 package arduino.workshop.myapplication
 
 import android.os.AsyncTask
-import kotlinx.coroutines.Dispatchers
 import java.io.*
-import java.net.InetSocketAddress
 import java.net.Socket
 
 object ClientSocket : AsyncTask<String, Void, String>() {
     @ExperimentalStdlibApi
     public override fun doInBackground(vararg params: String?): String? {
-        val s = Socket("10.0.2.2", 65432)
+        //val s = Socket("10.0.2.2", 65432)
+        val s = Socket("192.168.1.13", 65432)
+        //val s = MySocket.getSocket()
         val output = PrintWriter(s.getOutputStream())
         output.write(params[0].toString())
         output.flush()

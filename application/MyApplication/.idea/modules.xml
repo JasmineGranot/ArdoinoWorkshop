@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/MyApplication.iml" filepath="$PROJECT_DIR$/.idea/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/MyApplication-app.iml" filepath="$PROJECT_DIR$/app/MyApplication-app.iml" group="My Application/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="My Application/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/application-MyApplication-app.iml" filepath="$PROJECT_DIR$/app/application-MyApplication-app.iml" group="My Application/app" />
     </modules>
   </component>
 </project>

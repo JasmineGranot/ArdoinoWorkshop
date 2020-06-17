@@ -6,116 +6,116 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml
+8-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml
+9-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:4:5-66
-11-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:4:22-64
+11-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:5:5-78
-12-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:5:22-76
+12-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:5:5-78
+12-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:5:22-76
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:6:5-75
-13-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:6:22-73
+13-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:6:5-75
+13-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:6:22-73
 14
 15    <uses-feature
-15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 16        android:glEsVersion="0x00020000"
-16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 17        android:required="true" />
-17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 18
 19    <application
-19-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:8:5-37:19
+19-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:8:5-37:19
 20        android:allowBackup="true"
-20-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:9:9-35
+20-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:9:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.2.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\a3eef63a1949ce565e26a68908e433ce\core-1.2.0\AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.2.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\a3eef63a1949ce565e26a68908e433ce\core-1.2.0\AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/ic_launcher"
-23-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:10:9-43
+23-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:10:9-43
 24        android:label="@string/app_name"
-24-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:11:9-41
+24-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:11:9-41
 25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:12:9-54
+25-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:12:9-54
 26        android:supportsRtl="true"
-26-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:13:9-35
+26-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:13:9-35
 27        android:testOnly="true"
 28        android:theme="@style/AppTheme" >
-28-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:14:9-40
+28-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:14:9-40
 29        <activity android:name="arduino.workshop.myapplication.MainActivity" >
-29-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:15:9-21:20
-29-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:15:19-47
+29-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:15:9-21:20
+29-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:15:19-47
 30            <intent-filter>
-30-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:16:13-20:29
+30-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:16:13-20:29
 31                <action android:name="android.intent.action.MAIN" />
-31-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:17:17-69
-31-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:17:25-66
+31-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:17:17-69
+31-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:17:25-66
 32
 33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:19:17-77
-33-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:19:27-74
+33-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:19:17-77
+33-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:19:27-74
 34            </intent-filter>
 35        </activity>
 36        <activity android:name="arduino.workshop.myapplication.Register" />
-36-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:22:9-46
-36-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:22:19-43
+36-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:22:9-46
+36-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:22:19-43
 37        <activity android:name="arduino.workshop.myapplication.ScreenMain" />
-37-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:23:9-48
-37-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:23:19-45
+37-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:23:9-48
+37-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:23:19-45
 38        <activity android:name="arduino.workshop.myapplication.FallHistory" />
-38-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:24:9-49
-38-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:24:19-46
+38-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:24:9-49
+38-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:24:19-46
 39        <activity android:name="arduino.workshop.myapplication.PulseHistory" />
-39-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:25:9-50
-39-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:25:19-47
+39-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:25:9-50
+39-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:25:19-47
 40        <activity android:name="arduino.workshop.myapplication.Location" />
-40-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:26:9-46
-40-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:26:19-43
+40-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:26:9-46
+40-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:26:19-43
 41        <activity android:name="arduino.workshop.myapplication.EmergencyCall" />
-41-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:27:9-51
-41-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:27:19-48
+41-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:27:9-51
+41-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:27:19-48
 42        <activity android:name="arduino.workshop.myapplication.CurrentPulse" />
-42-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:28:9-50
-42-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:28:19-47
+42-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:28:9-50
+42-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:28:19-47
 43
 44        <meta-data
-44-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:30:9-32:57
+44-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:30:9-32:57
 45            android:name="preloaded_fonts"
-45-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:31:13-43
+45-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:31:13-43
 46            android:resource="@array/preloaded_fonts" />
-46-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:32:13-54
+46-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:32:13-54
 47        <meta-data
-47-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:34:9-36:71
+47-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:34:9-36:71
 48            android:name="com.google.android.geo.API_KEY"
-48-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:35:13-58
+48-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:35:13-58
 49            android:value="AIzaSyAgDkTp-T9Y_aOzOyxQC0OdEfbKwTo84So" />
-49-->C:\Users\vered\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:36:13-68
+49-->C:\Users\jasmi\Desktop\Git\ArdoinoWorkshop\application\MyApplication\app\src\main\AndroidManifest.xml:36:13-68
 50        <!-- Needs to be explicitly declared on P+ -->
 51        <uses-library
-51-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+51-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 52            android:name="org.apache.http.legacy"
-52-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+52-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 53            android:required="false" />
-53-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+53-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\05fd23014d14d5f8988d77be1fbc46a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 54
 55        <activity
-55-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+55-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 56            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-56-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+56-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 57            android:exported="false"
-57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\d39ec00c07e9cc900cbdf184774bcb6f\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 59
 60        <meta-data
-60-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\862cde625aad1fbef0a39de3e07c14e3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+60-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\862cde625aad1fbef0a39de3e07c14e3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 61            android:name="com.google.android.gms.version"
-61-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\862cde625aad1fbef0a39de3e07c14e3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+61-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\862cde625aad1fbef0a39de3e07c14e3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 62            android:value="@integer/google_play_services_version" />
-62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\vered\.gradle\caches\transforms-2\files-2.1\862cde625aad1fbef0a39de3e07c14e3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\jasmi\.gradle\caches\transforms-2\files-2.1\862cde625aad1fbef0a39de3e07c14e3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 63    </application>
 64
 65</manifest>
