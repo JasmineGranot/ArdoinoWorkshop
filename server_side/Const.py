@@ -1,7 +1,7 @@
 
 REQUEST_TYPE = 'protocol_type'
 NOT_FOUND = 'Not Found'
-
+DELIMETER = ';'
 # consts for requests from app and arduino:
 GET_HEARTBEAT = 'getHeartbeat'
 SET_HEARTBEAT = 'setHeartbeat'
@@ -13,6 +13,7 @@ SET_LAST_FALL = 'setFall'
 GET_FALL_HISTORY = 'getFallHistory'
 ADD_ARDUINO = 'addNewArduino'
 ADD_USER = 'addNewUser'
+SIGN_IN = 'signin'
 
 # consts for tables:
 DB_IP = '34.69.72.132'
@@ -34,4 +35,4 @@ PULSE_FIELD = 'pulse'
 NORMAL_FIELD = 'is_normal'
 LONGITUDE_FIELD = 'lng'
 LATITUDE_FIELD = 'lat'
-PASSWORD_FIELD = 'password'
+PASSWORD_FIELD = 'user_password'
