@@ -24,7 +24,8 @@ def register_arduino(data):
 
 def get_heartbeat(data):
     user_id = data.get(Const.ARDUINO_ID_FIELD)
-    return get_pulse_data_for_user_from_db(user_id, 1)
+    #return get_pulse_data_for_user_from_db(user_id, 1)
+    return '180'
 
 
 def get_heartbeat_history(data):
@@ -48,7 +49,7 @@ def get_fall_history(data):
 def get_fall_data_for_user_from_db(user_id, limit=None):
     query = f"""select * from {Const.FALL_TABLE} 
                 where {Const.ARDUINO_ID_FIELD} = {user_id} 
-                order by {Const.DATE_FIELD} asc"""
+                order by {Const.DATE_FIELD} desc"""
     if limit:
         query += f" limit {limit}"
 

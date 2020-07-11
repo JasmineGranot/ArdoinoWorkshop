@@ -13,7 +13,7 @@ class FallHistory: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fall_history)
         CoroutineScope(Dispatchers.IO).launch {
-            val currentPulseFromServer = ClientSocket.doInBackground("getFallHistory 100")
+            val currentPulseFromServer = ClientSocket.doInBackground("getFallHistory;100")
         }
     }
 }
