@@ -40,14 +40,14 @@ class Register: AppCompatActivity() {
             else {
 
                 val user = User(userName, userEmail, braceletID)
-                val userInfo =
-                    userName.plus(";").plus(userEmail).plus(";").plus(userPhone).plus(";")
-                        .plus(braceletID).plus(";").plus(password)
-                CoroutineScope(Dispatchers.IO).launch {
-                    val serverAnswer = ClientSocket.doInBackground("addNewUser ".plus(userInfo))
-                    if(serverAnswer != "oh no"){
-                        setContentView(R.layout.activity_sign_in)
-                    }
+                    val userInfo =
+                        userName.plus(";").plus(userEmail).plus(";").plus(userPhone).plus(";")
+                            .plus(braceletID).plus(";").plus(password)
+                    CoroutineScope(Dispatchers.IO).launch {
+                        val serverAnswer = ClientSocket.doInBackground("addNewUser".plus(";").plus(userInfo))
+                        if(serverAnswer != "oh no"){
+                            setContentView(R.layout.activity_sign_in)
+                        }
                 }
             }
         }
